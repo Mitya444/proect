@@ -1,4 +1,4 @@
-rom flask import Flask, rendertemplate
+from flask import Flask, rendertemplate
 
 app = Flask(name)
 
@@ -79,4 +79,4 @@ def book(bookid):
         return "Книга не знайдена", 404
 
 if __name == '__main':
-    app.run(debug=True
+    app.run(debug=True)
